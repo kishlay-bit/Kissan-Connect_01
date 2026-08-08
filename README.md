@@ -2,6 +2,8 @@
 ### An AI-assisted eligibility & discovery platform for agricultural government schemes
 
 ---
+### doc file link--
+[Document link](https://docs.google.com/document/d/1DAwOe3Cg1mNlP-5FvlY2PW6i0simqvrAnAxsBGGGmfQ/edit?usp=sharing)
 
 ## 1. Does this already exist? (Market check)
 
