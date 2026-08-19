@@ -1,192 +1,785 @@
-district_id,state,district_name,agro_climatic_zone,drought_prone_flag,flood_prone_flag,aspirational_district_flag,state_rural_poverty_rate_pct,state_irrigation_coverage_pct,state_avg_landholding_ha
-UP01,Uttar Pradesh,Agra,Middle Gangetic Plains,N,N,N,22.9,80.2,0.73
-UP02,Uttar Pradesh,Prayagraj,Middle Gangetic Plains,N,N,N,22.9,80.2,0.73
-UP03,Uttar Pradesh,Varanasi,Middle Gangetic Plains,N,Y,N,22.9,80.2,0.73
-UP04,Uttar Pradesh,Lucknow,Middle Gangetic Plains,N,N,N,22.9,80.2,0.73
-UP05,Uttar Pradesh,Kanpur,Middle Gangetic Plains,Y,Y,N,22.9,80.2,0.73
-UP06,Uttar Pradesh,Gorakhpur,Middle Gangetic Plains,Y,N,N,22.9,80.2,0.73
-UP07,Uttar Pradesh,Meerut,Middle Gangetic Plains,N,Y,N,22.9,80.2,0.73
-BR01,Bihar,Patna,Middle Gangetic Plains,N,Y,N,33.7,62.0,0.39
-BR02,Bihar,Gaya,Middle Gangetic Plains,N,Y,N,33.7,62.0,0.39
-BR03,Bihar,Muzaffarpur,Middle Gangetic Plains,N,Y,N,33.7,62.0,0.39
-BR04,Bihar,Bhagalpur,Middle Gangetic Plains,N,Y,N,33.7,62.0,0.39
-BR05,Bihar,Purnia,Middle Gangetic Plains,N,Y,N,33.7,62.0,0.39
-BR06,Bihar,Darbhanga,Middle Gangetic Plains,N,Y,N,33.7,62.0,0.39
-MH01,Maharashtra,Pune,Western Plateau and Hills,Y,N,N,14.8,18.0,1.34
-MH02,Maharashtra,Nagpur,Western Plateau and Hills,Y,N,N,14.8,18.0,1.34
-MH03,Maharashtra,Nashik,Western Plateau and Hills,Y,N,Y,14.8,18.0,1.34
-MH04,Maharashtra,Aurangabad,Western Plateau and Hills,Y,N,Y,14.8,18.0,1.34
-MH05,Maharashtra,Solapur,Western Plateau and Hills,Y,N,N,14.8,18.0,1.34
-MH06,Maharashtra,Jalgaon,Western Plateau and Hills,Y,N,N,14.8,18.0,1.34
-MH07,Maharashtra,Thane,Western Plateau and Hills,N,Y,N,14.8,18.0,1.34
-MP01,Madhya Pradesh,Bhopal,Central Plateau and Hills,Y,Y,N,20.6,45.0,1.57
-MP02,Madhya Pradesh,Indore,Central Plateau and Hills,Y,N,Y,20.6,45.0,1.57
-MP03,Madhya Pradesh,Gwalior,Central Plateau and Hills,N,N,N,20.6,45.0,1.57
-MP04,Madhya Pradesh,Jabalpur,Central Plateau and Hills,Y,N,N,20.6,45.0,1.57
-MP05,Madhya Pradesh,Ujjain,Central Plateau and Hills,Y,N,N,20.6,45.0,1.57
-MP06,Madhya Pradesh,Rewa,Central Plateau and Hills,Y,N,N,20.6,45.0,1.57
-MP07,Madhya Pradesh,Sagar,Central Plateau and Hills,N,N,N,20.6,45.0,1.57
-KA01,Karnataka,Bengaluru Rural,Southern Plateau and Hills,N,N,N,13.1,34.0,1.35
-KA02,Karnataka,Mysuru,Southern Plateau and Hills,Y,Y,Y,13.1,34.0,1.35
-KA03,Karnataka,Belagavi,Southern Plateau and Hills,N,Y,N,13.1,34.0,1.35
-KA04,Karnataka,Dharwad,Southern Plateau and Hills,Y,N,N,13.1,34.0,1.35
-KA05,Karnataka,Kalaburagi,Southern Plateau and Hills,Y,N,N,13.1,34.0,1.35
-KA06,Karnataka,Mangaluru,Southern Plateau and Hills,Y,N,N,13.1,34.0,1.35
-AP01,Andhra Pradesh,Guntur,Southern Plateau and Hills,N,N,N,6.0,55.0,0.94
-AP02,Andhra Pradesh,Krishna,Southern Plateau and Hills,Y,N,N,6.0,55.0,0.94
-AP03,Andhra Pradesh,Kurnool,Southern Plateau and Hills,Y,Y,N,6.0,55.0,0.94
-AP04,Andhra Pradesh,Visakhapatnam,Southern Plateau and Hills,Y,N,N,6.0,55.0,0.94
-AP05,Andhra Pradesh,Chittoor,Southern Plateau and Hills,N,Y,Y,6.0,55.0,0.94
-AP06,Andhra Pradesh,Anantapur,Southern Plateau and Hills,Y,N,N,6.0,55.0,0.94
-TN01,Tamil Nadu,Coimbatore,East Coast Plains and Hills,N,N,Y,4.8,58.0,0.75
-TN02,Tamil Nadu,Madurai,East Coast Plains and Hills,N,N,N,4.8,58.0,0.75
-TN03,Tamil Nadu,Salem,East Coast Plains and Hills,N,Y,N,4.8,58.0,0.75
-TN04,Tamil Nadu,Tiruchirappalli,East Coast Plains and Hills,Y,N,N,4.8,58.0,0.75
-TN05,Tamil Nadu,Thanjavur,East Coast Plains and Hills,N,N,N,4.8,58.0,0.75
-TN06,Tamil Nadu,Vellore,East Coast Plains and Hills,Y,N,N,4.8,58.0,0.75
-RJ01,Rajasthan,Jaipur,Western Dry Region,Y,N,N,10.9,42.0,2.73
-RJ02,Rajasthan,Jodhpur,Western Dry Region,Y,N,Y,10.9,42.0,2.73
-RJ03,Rajasthan,Udaipur,Western Dry Region,N,N,N,10.9,42.0,2.73
-RJ04,Rajasthan,Bikaner,Western Dry Region,N,N,Y,10.9,42.0,2.73
-RJ05,Rajasthan,Kota,Western Dry Region,Y,N,N,10.9,42.0,2.73
-RJ06,Rajasthan,Ajmer,Western Dry Region,N,Y,N,10.9,42.0,2.73
-RJ07,Rajasthan,Alwar,Western Dry Region,Y,N,N,10.9,42.0,2.73
-KL01,Kerala,Thiruvananthapuram,West Coast Plains and Ghats,N,N,N,0.5,20.0,0.18
-KL02,Kerala,Ernakulam,West Coast Plains and Ghats,N,Y,N,0.5,20.0,0.18
-KL03,Kerala,Kozhikode,West Coast Plains and Ghats,N,N,N,0.5,20.0,0.18
-KL04,Kerala,Palakkad,West Coast Plains and Ghats,N,Y,N,0.5,20.0,0.18
-KL05,Kerala,Thrissur,West Coast Plains and Ghats,N,N,N,0.5,20.0,0.18
-KL06,Kerala,Kannur,West Coast Plains and Ghats,N,N,N,0.5,20.0,0.18
-WB01,West Bengal,Bardhaman,Lower Gangetic Plains,N,Y,N,11.8,55.0,0.77
-WB02,West Bengal,Hooghly,Lower Gangetic Plains,Y,Y,Y,11.8,55.0,0.77
-WB03,West Bengal,Howrah,Lower Gangetic Plains,N,Y,Y,11.8,55.0,0.77
-WB04,West Bengal,Murshidabad,Lower Gangetic Plains,N,Y,N,11.8,55.0,0.77
-WB05,West Bengal,Nadia,Lower Gangetic Plains,N,N,N,11.8,55.0,0.77
-WB06,West Bengal,Malda,Lower Gangetic Plains,N,Y,N,11.8,55.0,0.77
-TS01,Telangana,Hyderabad,Southern Plateau and Hills,N,N,N,5.8,50.0,1.0
-TS02,Telangana,Warangal,Southern Plateau and Hills,Y,N,Y,5.8,50.0,1.0
-TS03,Telangana,Karimnagar,Southern Plateau and Hills,Y,N,N,5.8,50.0,1.0
-TS04,Telangana,Nizamabad,Southern Plateau and Hills,Y,N,N,5.8,50.0,1.0
-TS05,Telangana,Khammam,Southern Plateau and Hills,Y,N,N,5.8,50.0,1.0
-TS06,Telangana,Nalgonda,Southern Plateau and Hills,N,N,N,5.8,50.0,1.0
-GJ01,Gujarat,Ahmedabad,Gujarat Plains and Hills,Y,N,N,11.6,46.0,2.03
-GJ02,Gujarat,Surat,Gujarat Plains and Hills,N,Y,N,11.6,46.0,2.03
-GJ03,Gujarat,Vadodara,Gujarat Plains and Hills,Y,N,N,11.6,46.0,2.03
-GJ04,Gujarat,Rajkot,Gujarat Plains and Hills,Y,N,N,11.6,46.0,2.03
-GJ05,Gujarat,Bhavnagar,Gujarat Plains and Hills,N,N,N,11.6,46.0,2.03
-GJ06,Gujarat,Jamnagar,Gujarat Plains and Hills,N,Y,N,11.6,46.0,2.03
-GJ07,Gujarat,Junagadh,Gujarat Plains and Hills,N,N,N,11.6,46.0,2.03
-OD01,Odisha,Khordha,Eastern Plateau and Hills,N,N,Y,15.6,35.0,0.95
-OD02,Odisha,Cuttack,Eastern Plateau and Hills,N,Y,N,15.6,35.0,0.95
-OD03,Odisha,Ganjam,Eastern Plateau and Hills,N,Y,N,15.6,35.0,0.95
-OD04,Odisha,Sundargarh,Eastern Plateau and Hills,N,Y,N,15.6,35.0,0.95
-OD05,Odisha,Balasore,Eastern Plateau and Hills,N,Y,N,15.6,35.0,0.95
-OD06,Odisha,Puri,Eastern Plateau and Hills,N,N,N,15.6,35.0,0.95
-CG01,Chhattisgarh,Raipur,Eastern Plateau and Hills,N,N,N,16.3,32.0,1.36
-CG02,Chhattisgarh,Bilaspur,Eastern Plateau and Hills,N,N,Y,16.3,32.0,1.36
-CG03,Chhattisgarh,Durg,Eastern Plateau and Hills,N,N,N,16.3,32.0,1.36
-CG04,Chhattisgarh,Bastar,Eastern Plateau and Hills,N,Y,Y,16.3,32.0,1.36
-CG05,Chhattisgarh,Korba,Eastern Plateau and Hills,Y,N,N,16.3,32.0,1.36
-CG06,Chhattisgarh,Surguja,Eastern Plateau and Hills,N,N,Y,16.3,32.0,1.36
-AS01,Assam,Kamrup,Eastern Himalayan Region,N,Y,N,32.6,30.0,1.09
-AS02,Assam,Nagaon,Eastern Himalayan Region,N,Y,N,32.6,30.0,1.09
-AS03,Assam,Sonitpur,Eastern Himalayan Region,N,N,N,32.6,30.0,1.09
-AS04,Assam,Dibrugarh,Eastern Himalayan Region,N,Y,N,32.6,30.0,1.09
-AS05,Assam,Cachar,Eastern Himalayan Region,N,Y,N,32.6,30.0,1.09
-AS06,Assam,Jorhat,Eastern Himalayan Region,N,Y,Y,32.6,30.0,1.09
-JH01,Jharkhand,Ranchi,Eastern Plateau and Hills,N,N,Y,28.8,15.0,1.17
-JH02,Jharkhand,Dhanbad,Eastern Plateau and Hills,Y,N,N,28.8,15.0,1.17
-JH03,Jharkhand,East Singhbhum,Eastern Plateau and Hills,Y,N,Y,28.8,15.0,1.17
-JH04,Jharkhand,Bokaro,Eastern Plateau and Hills,Y,N,Y,28.8,15.0,1.17
-JH05,Jharkhand,Hazaribagh,Eastern Plateau and Hills,N,N,N,28.8,15.0,1.17
-JH06,Jharkhand,Palamu,Eastern Plateau and Hills,Y,N,Y,28.8,15.0,1.17
-HR01,Haryana,Gurugram,Trans-Gangetic Plains,N,N,N,7.0,89.0,2.22
-HR02,Haryana,Faridabad,Trans-Gangetic Plains,N,N,N,7.0,89.0,2.22
-HR03,Haryana,Karnal,Trans-Gangetic Plains,N,Y,N,7.0,89.0,2.22
-HR04,Haryana,Hisar,Trans-Gangetic Plains,N,Y,N,7.0,89.0,2.22
-HR05,Haryana,Rohtak,Trans-Gangetic Plains,N,N,N,7.0,89.0,2.22
-HR06,Haryana,Ambala,Trans-Gangetic Plains,Y,N,N,7.0,89.0,2.22
-JK01,Jammu & Kashmir,Srinagar,Western Himalayan Region,Y,Y,N,4.8,42.0,0.59
-JK02,Jammu & Kashmir,Jammu,Western Himalayan Region,N,N,Y,4.8,42.0,0.59
-JK03,Jammu & Kashmir,Anantnag,Western Himalayan Region,N,N,N,4.8,42.0,0.59
-JK04,Jammu & Kashmir,Baramulla,Western Himalayan Region,Y,N,N,4.8,42.0,0.59
-JK05,Jammu & Kashmir,Udhampur,Western Himalayan Region,N,N,N,4.8,42.0,0.59
-JK06,Jammu & Kashmir,Pulwama,Western Himalayan Region,N,N,N,4.8,42.0,0.59
-PB01,Punjab,Ludhiana,Trans-Gangetic Plains,N,N,N,4.7,98.0,3.62
-PB02,Punjab,Amritsar,Trans-Gangetic Plains,N,N,N,4.7,98.0,3.62
-PB03,Punjab,Jalandhar,Trans-Gangetic Plains,N,N,N,4.7,98.0,3.62
-PB04,Punjab,Patiala,Trans-Gangetic Plains,Y,N,N,4.7,98.0,3.62
-PB05,Punjab,Bathinda,Trans-Gangetic Plains,Y,N,N,4.7,98.0,3.62
-PB06,Punjab,Hoshiarpur,Trans-Gangetic Plains,N,N,N,4.7,98.0,3.62
-HP01,Himachal Pradesh,Shimla,Western Himalayan Region,Y,Y,N,7.6,20.0,0.95
-HP02,Himachal Pradesh,Kangra,Western Himalayan Region,N,N,N,7.6,20.0,0.95
-HP03,Himachal Pradesh,Mandi,Western Himalayan Region,N,Y,N,7.6,20.0,0.95
-HP04,Himachal Pradesh,Solan,Western Himalayan Region,N,N,N,7.6,20.0,0.95
-HP05,Himachal Pradesh,Kullu,Western Himalayan Region,N,N,N,7.6,20.0,0.95
-HP06,Himachal Pradesh,Sirmaur,Western Himalayan Region,N,N,N,7.6,20.0,0.95
-UK01,Uttarakhand,Dehradun,Western Himalayan Region,N,Y,N,9.6,45.0,0.85
-UK02,Uttarakhand,Haridwar,Western Himalayan Region,N,N,N,9.6,45.0,0.85
-UK03,Uttarakhand,Nainital,Western Himalayan Region,N,N,N,9.6,45.0,0.85
-UK04,Uttarakhand,Udham Singh Nagar,Western Himalayan Region,N,Y,Y,9.6,45.0,0.85
-UK05,Uttarakhand,Almora,Western Himalayan Region,N,N,N,9.6,45.0,0.85
-UK06,Uttarakhand,Pauri Garhwal,Western Himalayan Region,N,N,N,9.6,45.0,0.85
-TR01,Tripura,West Tripura,Eastern Himalayan Region,N,Y,N,16.6,25.0,0.49
-TR02,Tripura,North Tripura,Eastern Himalayan Region,N,N,N,16.6,25.0,0.49
-TR03,Tripura,South Tripura,Eastern Himalayan Region,N,Y,N,16.6,25.0,0.49
-TR04,Tripura,Dhalai,Eastern Himalayan Region,N,Y,N,16.6,25.0,0.49
-ML01,Meghalaya,East Khasi Hills,Eastern Himalayan Region,N,N,N,27.7,10.0,1.3
-ML02,Meghalaya,West Garo Hills,Eastern Himalayan Region,N,Y,N,27.7,10.0,1.3
-ML03,Meghalaya,Jaintia Hills,Eastern Himalayan Region,N,Y,N,27.7,10.0,1.3
-ML04,Meghalaya,Ri Bhoi,Eastern Himalayan Region,N,N,Y,27.7,10.0,1.3
-NL01,Nagaland,Kohima,Eastern Himalayan Region,N,N,N,15.4,25.0,5.06
-NL02,Nagaland,Dimapur,Eastern Himalayan Region,N,N,N,15.4,25.0,5.06
-NL03,Nagaland,Mokokchung,Eastern Himalayan Region,N,N,N,15.4,25.0,5.06
-NL04,Nagaland,Mon,Eastern Himalayan Region,N,N,N,15.4,25.0,5.06
-NL05,Nagaland,Wokha,Eastern Himalayan Region,N,N,N,15.4,25.0,5.06
-MN01,Manipur,Imphal West,Eastern Himalayan Region,N,Y,N,8.1,28.0,1.14
-MN02,Manipur,Imphal East,Eastern Himalayan Region,N,N,N,8.1,28.0,1.14
-MN03,Manipur,Thoubal,Eastern Himalayan Region,N,N,N,8.1,28.0,1.14
-MN04,Manipur,Bishnupur,Eastern Himalayan Region,N,N,Y,8.1,28.0,1.14
-MN05,Manipur,Churachandpur,Eastern Himalayan Region,N,Y,N,8.1,28.0,1.14
-AR01,Arunachal Pradesh,Papum Pare,Eastern Himalayan Region,N,N,N,13.7,20.0,3.35
-AR02,Arunachal Pradesh,Changlang,Eastern Himalayan Region,N,Y,N,13.7,20.0,3.35
-AR03,Arunachal Pradesh,Lohit,Eastern Himalayan Region,N,Y,N,13.7,20.0,3.35
-AR04,Arunachal Pradesh,West Kameng,Eastern Himalayan Region,N,Y,N,13.7,20.0,3.35
-AR05,Arunachal Pradesh,Tawang,Eastern Himalayan Region,N,N,N,13.7,20.0,3.35
-MZ01,Mizoram,Aizawl,Eastern Himalayan Region,N,N,N,5.3,15.0,1.14
-MZ02,Mizoram,Lunglei,Eastern Himalayan Region,N,Y,N,5.3,15.0,1.14
-MZ03,Mizoram,Champhai,Eastern Himalayan Region,N,N,N,5.3,15.0,1.14
-MZ04,Mizoram,Kolasib,Eastern Himalayan Region,N,N,N,5.3,15.0,1.14
-MZ05,Mizoram,Serchhip,Eastern Himalayan Region,N,N,N,5.3,15.0,1.14
-SK01,Sikkim,East Sikkim,Eastern Himalayan Region,N,Y,N,2.6,15.0,1.25
-SK02,Sikkim,West Sikkim,Eastern Himalayan Region,N,N,N,2.6,15.0,1.25
-SK03,Sikkim,North Sikkim,Eastern Himalayan Region,N,N,N,2.6,15.0,1.25
-SK04,Sikkim,South Sikkim,Eastern Himalayan Region,Y,N,Y,2.6,15.0,1.25
-GA01,Goa,North Goa,West Coast Plains and Ghats,N,N,N,0.8,35.0,1.14
-GA02,Goa,South Goa,West Coast Plains and Ghats,N,N,N,0.8,35.0,1.14
-GA03,Goa,Ponda,West Coast Plains and Ghats,N,Y,N,0.8,35.0,1.14
-DL01,Delhi,New Delhi,Trans-Gangetic Plains,Y,N,N,2.9,90.0,1.34
-DL02,Delhi,North Delhi,Trans-Gangetic Plains,N,N,N,2.9,90.0,1.34
-DL03,Delhi,South Delhi,Trans-Gangetic Plains,N,N,N,2.9,90.0,1.34
-DL04,Delhi,East Delhi,Trans-Gangetic Plains,N,N,N,2.9,90.0,1.34
-DL05,Delhi,West Delhi,Trans-Gangetic Plains,N,N,N,2.9,90.0,1.34
-PY01,Puducherry,Puducherry,East Coast Plains and Hills,N,N,N,0.8,85.0,0.67
-PY02,Puducherry,Karaikal,East Coast Plains and Hills,N,N,N,0.8,85.0,0.67
-PY03,Puducherry,Mahe,East Coast Plains and Hills,N,N,N,0.8,85.0,0.67
-PY04,Puducherry,Yanam,East Coast Plains and Hills,N,N,N,0.8,85.0,0.67
-AN01,Andaman & Nicobar Islands,North and Middle Andaman,Island Region,N,Y,N,2.7,5.0,1.85
-AN02,Andaman & Nicobar Islands,South Andaman,Island Region,N,Y,N,2.7,5.0,1.85
-AN03,Andaman & Nicobar Islands,Nicobar,Island Region,N,N,N,2.7,5.0,1.85
-DN01,Dadra & Nagar Haveli,Dadra,Gujarat Plains and Hills,N,Y,N,9.2,30.0,1.38
-DN02,Dadra & Nagar Haveli,Nagar Haveli,Gujarat Plains and Hills,N,N,N,9.2,30.0,1.38
-DN03,Dadra & Nagar Haveli,Silvassa,Gujarat Plains and Hills,N,N,N,9.2,30.0,1.38
-CH01,Chandigarh,Chandigarh North,Trans-Gangetic Plains,N,N,N,1.0,95.0,1.45
-CH02,Chandigarh,Chandigarh South,Trans-Gangetic Plains,N,N,N,1.0,95.0,1.45
-CH03,Chandigarh,Chandigarh Central,Trans-Gangetic Plains,N,N,N,1.0,95.0,1.45
-DD01,Daman & Diu,Daman,Gujarat Plains and Hills,N,N,N,1.0,20.0,0.45
-DD02,Daman & Diu,Diu,Gujarat Plains and Hills,N,Y,N,1.0,20.0,0.45
-DD03,Daman & Diu,Ghoghla,Gujarat Plains and Hills,N,N,N,1.0,20.0,0.45
-LD01,Lakshadweep,Agatti,Island Region,N,N,N,1.1,0.0,0.27
-LD02,Lakshadweep,Amini,Island Region,Y,Y,N,1.1,0.0,0.27
-LD03,Lakshadweep,Andrott,Island Region,N,N,N,1.1,0.0,0.27
-LD04,Lakshadweep,Minicoy,Island Region,N,Y,N,1.1,0.0,0.27
+state,district_name,agro_climatic_zone,drought_prone_flag,flood_prone_flag,aspirational_district_flag,state_rural_poverty_rate_pct,state_irrigation_coverage_pct,state_avg_landholding_ha
+Andhra Pradesh,Alluri Sitharama Raju,East Coast Plains and Hills Region,0,0,1,7.71,63.9,0.94
+Andhra Pradesh,Anakapalli,East Coast Plains and Hills Region,0,1,0,7.71,63.9,0.94
+Andhra Pradesh,Ananthapuramu,Southern Plateau and Hills Region,1,0,0,7.71,63.9,0.94
+Andhra Pradesh,Annamayya,Southern Plateau and Hills Region,1,0,0,7.71,63.9,0.94
+Andhra Pradesh,Bapatla,East Coast Plains and Hills Region,0,1,0,7.71,63.9,0.94
+Andhra Pradesh,Chittoor,Southern Plateau and Hills Region,1,0,0,7.71,63.9,0.94
+Andhra Pradesh,Dr. B.R. Ambedkar Konaseema,East Coast Plains and Hills Region,0,1,0,7.71,63.9,0.94
+Andhra Pradesh,East Godavari,East Coast Plains and Hills Region,0,1,0,7.71,63.9,0.94
+Andhra Pradesh,Eluru,East Coast Plains and Hills Region,0,1,0,7.71,63.9,0.94
+Andhra Pradesh,Guntur,East Coast Plains and Hills Region,0,1,0,7.71,63.9,0.94
+Andhra Pradesh,Kakinada,East Coast Plains and Hills Region,0,1,0,7.71,63.9,0.94
+Andhra Pradesh,Krishna,East Coast Plains and Hills Region,0,1,0,7.71,63.9,0.94
+Andhra Pradesh,Kurnool,Southern Plateau and Hills Region,1,0,0,7.71,63.9,0.94
+Andhra Pradesh,Nandyal,Southern Plateau and Hills Region,1,0,0,7.71,63.9,0.94
+Andhra Pradesh,NTR,East Coast Plains and Hills Region,0,1,0,7.71,63.9,0.94
+Andhra Pradesh,Palnadu,East Coast Plains and Hills Region,0,1,0,7.71,63.9,0.94
+Andhra Pradesh,Parvathipuram Manyam,East Coast Plains and Hills Region,0,0,1,7.71,63.9,0.94
+Andhra Pradesh,Prakasam,East Coast Plains and Hills Region,1,0,0,7.71,63.9,0.94
+Andhra Pradesh,Sri Potti Sriramulu Nellore,East Coast Plains and Hills Region,0,0,0,7.71,63.9,0.94
+Andhra Pradesh,Sri Sathya Sai,Southern Plateau and Hills Region,1,0,0,7.71,63.9,0.94
+Andhra Pradesh,Srikakulam,East Coast Plains and Hills Region,0,0,0,7.71,63.9,0.94
+Andhra Pradesh,Tirupati,East Coast Plains and Hills Region,0,0,0,7.71,63.9,0.94
+Andhra Pradesh,Visakhapatnam,East Coast Plains and Hills Region,0,0,1,7.71,63.9,0.94
+Andhra Pradesh,Vizianagaram,East Coast Plains and Hills Region,0,0,1,7.71,63.9,0.94
+Andhra Pradesh,West Godavari,East Coast Plains and Hills Region,0,1,0,7.71,63.9,0.94
+Andhra Pradesh,Y.S.R. Kadapa,Southern Plateau and Hills Region,1,0,1,7.71,63.9,0.94
+Arunachal Pradesh,Anjaw,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Changlang,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Dibang Valley,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,East Kameng,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,East Siang,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Itanagar Capital Complex,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Kamle,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Kra Daadi,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Kurung Kumey,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Lepa Rada,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Lohit,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Longding,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Lower Dibang Valley,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Lower Siang,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Lower Subansiri,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Namsai,Eastern Himalayan Region,0,0,1,18.0,12.5,3.35
+Arunachal Pradesh,Pakke Kessang,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Papum Pare,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Shi Yomi,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Siang,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Tawang,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Tirap,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Upper Siang,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,Upper Subansiri,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,West Kameng,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Arunachal Pradesh,West Siang,Eastern Himalayan Region,0,0,0,18.0,12.5,3.35
+Assam,Bajali,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Baksa,Eastern Himalayan Region,0,1,1,21.41,4.9,1.09
+Assam,Barpeta,Eastern Himalayan Region,0,1,1,21.41,4.9,1.09
+Assam,Biswanath,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Bongaigaon,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Cachar,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Charaideo,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Chirang,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Darrang,Eastern Himalayan Region,0,1,1,21.41,4.9,1.09
+Assam,Dhemaji,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Dhubri,Eastern Himalayan Region,0,1,1,21.41,4.9,1.09
+Assam,Dibrugarh,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Dima Hasao,Eastern Himalayan Region,0,0,0,21.41,4.9,1.09
+Assam,Goalpara,Eastern Himalayan Region,0,1,1,21.41,4.9,1.09
+Assam,Golaghat,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Hailakandi,Eastern Himalayan Region,0,1,1,21.41,4.9,1.09
+Assam,Hojai,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Jorhat,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Kamrup,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Kamrup Metropolitan,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Karbi Anglong,Eastern Himalayan Region,0,0,0,21.41,4.9,1.09
+Assam,Karimganj,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Kokrajhar,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Lakhimpur,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Majuli,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Morigaon,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Nagaon,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Nalbari,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Sivasagar,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,South Salmara-Mankachar,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Sonitpur,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Tinsukia,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Assam,Udalguri,Eastern Himalayan Region,0,1,1,21.41,4.9,1.09
+Assam,West Karbi Anglong,Eastern Himalayan Region,0,0,0,21.41,4.9,1.09
+Assam,Tamulpur,Eastern Himalayan Region,0,1,0,21.41,4.9,1.09
+Bihar,Araria,Middle Gangetic Plains Region,0,1,1,37.11,63.4,0.39
+Bihar,Arwal,Middle Gangetic Plains Region,1,0,0,37.11,63.4,0.39
+Bihar,Aurangabad,Middle Gangetic Plains Region,1,0,1,37.11,63.4,0.39
+Bihar,Banka,Middle Gangetic Plains Region,1,0,1,37.11,63.4,0.39
+Bihar,Begusarai,Middle Gangetic Plains Region,0,1,1,37.11,63.4,0.39
+Bihar,Bhagalpur,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Bihar,Bhojpur,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Bihar,Buxar,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Bihar,Darbhanga,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Bihar,East Champaran (Motihari),Middle Gangetic Plains Region,0,1,1,37.11,63.4,0.39
+Bihar,Gaya,Middle Gangetic Plains Region,1,0,1,37.11,63.4,0.39
+Bihar,Gopalganj,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Bihar,Jamui,Middle Gangetic Plains Region,1,0,1,37.11,63.4,0.39
+Bihar,Jehanabad,Middle Gangetic Plains Region,1,0,0,37.11,63.4,0.39
+Bihar,Kaimur (Bhabua),Middle Gangetic Plains Region,1,0,0,37.11,63.4,0.39
+Bihar,Katihar,Middle Gangetic Plains Region,0,1,1,37.11,63.4,0.39
+Bihar,Khagaria,Middle Gangetic Plains Region,0,1,1,37.11,63.4,0.39
+Bihar,Kishanganj,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Bihar,Lakhisarai,Middle Gangetic Plains Region,0,0,0,37.11,63.4,0.39
+Bihar,Madhepura,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Bihar,Madhubani,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Bihar,Munger (Monghyr),Middle Gangetic Plains Region,0,0,0,37.11,63.4,0.39
+Bihar,Muzaffarpur,Middle Gangetic Plains Region,0,1,1,37.11,63.4,0.39
+Bihar,Nalanda,Middle Gangetic Plains Region,0,0,0,37.11,63.4,0.39
+Bihar,Nawada,Middle Gangetic Plains Region,1,0,1,37.11,63.4,0.39
+Bihar,Patna,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Bihar,Purnia (Purnea),Middle Gangetic Plains Region,0,1,1,37.11,63.4,0.39
+Bihar,Rohtas,Middle Gangetic Plains Region,1,1,0,37.11,63.4,0.39
+Bihar,Saharsa,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Bihar,Samastipur,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Bihar,Saran,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Bihar,Sheikhpura,Middle Gangetic Plains Region,0,0,1,37.11,63.4,0.39
+Bihar,Sheohar,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Bihar,Sitamarhi,Middle Gangetic Plains Region,0,1,1,37.11,63.4,0.39
+Bihar,Siwan,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Bihar,Supaul,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Bihar,Vaishali,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Bihar,West Champaran,Middle Gangetic Plains Region,0,1,0,37.11,63.4,0.39
+Chandigarh (UT),Chandigarh,Trans-Gangetic Plains Region,0,0,0,1.5,100.0,1.22
+Chhattisgarh,Balod,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Baloda Bazar,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Balrampur,Eastern Plateau and Hills Region,1,0,0,19.71,27.6,1.24
+Chhattisgarh,Bastar,Eastern Plateau and Hills Region,1,0,1,19.71,27.6,1.24
+Chhattisgarh,Bemetara,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Bijapur,Eastern Plateau and Hills Region,1,0,1,19.71,27.6,1.24
+Chhattisgarh,Bilaspur,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Dantewada (South Bastar),Eastern Plateau and Hills Region,1,0,1,19.71,27.6,1.24
+Chhattisgarh,Dhamtari,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Durg,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Gariyaband,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Gaurela Pendra Marwahi,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Janjgir-Champa,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Jashpur,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Kabirdham (Kawardha),Eastern Plateau and Hills Region,1,0,0,19.71,27.6,1.24
+Chhattisgarh,Kanker (North Bastar),Eastern Plateau and Hills Region,1,0,1,19.71,27.6,1.24
+Chhattisgarh,Kondagaon,Eastern Plateau and Hills Region,1,0,1,19.71,27.6,1.24
+Chhattisgarh,Korba,Eastern Plateau and Hills Region,0,0,1,19.71,27.6,1.24
+Chhattisgarh,Koriya,Eastern Plateau and Hills Region,1,0,0,19.71,27.6,1.24
+Chhattisgarh,Mahasamund,Eastern Plateau and Hills Region,0,0,1,19.71,27.6,1.24
+Chhattisgarh,Manendragarh-Chirmiri-Bharatpur,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Mohla-Manpur-Ambagarh Chowki,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Mungeli,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Narayanpur,Eastern Plateau and Hills Region,1,0,1,19.71,27.6,1.24
+Chhattisgarh,Raigarh,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Raipur,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Rajnandgaon,Eastern Plateau and Hills Region,1,0,1,19.71,27.6,1.24
+Chhattisgarh,Sakti,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Sarangarh-Bilaigarh,Eastern Plateau and Hills Region,0,0,0,19.71,27.6,1.24
+Chhattisgarh,Sukma,Eastern Plateau and Hills Region,1,0,1,19.71,27.6,1.24
+Chhattisgarh,Surajpur,Eastern Plateau and Hills Region,1,0,0,19.71,27.6,1.24
+Chhattisgarh,Surguja,Eastern Plateau and Hills Region,1,0,0,19.71,27.6,1.24
+Dadra and Nagar Haveli and Daman and Diu (UT),Dadra and Nagar Haveli,Gujarat Plains and Hills Region,0,0,0,9.5,6.5,0.87
+Dadra and Nagar Haveli and Daman and Diu (UT),Daman,Gujarat Plains and Hills Region,0,0,0,9.5,6.5,0.87
+Dadra and Nagar Haveli and Daman and Diu (UT),Diu,Gujarat Plains and Hills Region,0,0,0,9.5,6.5,0.87
+Delhi (NCT),Central Delhi,Trans-Gangetic Plains Region,0,0,0,2.1,85.0,1.39
+Delhi (NCT),East Delhi,Trans-Gangetic Plains Region,0,0,0,2.1,85.0,1.39
+Delhi (NCT),New Delhi,Trans-Gangetic Plains Region,0,0,0,2.1,85.0,1.39
+Delhi (NCT),North Delhi,Trans-Gangetic Plains Region,0,0,0,2.1,85.0,1.39
+Delhi (NCT),North East Delhi,Trans-Gangetic Plains Region,0,0,0,2.1,85.0,1.39
+Delhi (NCT),North West Delhi,Trans-Gangetic Plains Region,0,0,0,2.1,85.0,1.39
+Delhi (NCT),Shahdara,Trans-Gangetic Plains Region,0,0,0,2.1,85.0,1.39
+Delhi (NCT),South Delhi,Trans-Gangetic Plains Region,0,0,0,2.1,85.0,1.39
+Delhi (NCT),South East Delhi,Trans-Gangetic Plains Region,0,0,0,2.1,85.0,1.39
+Delhi (NCT),South West Delhi,Trans-Gangetic Plains Region,0,0,0,2.1,85.0,1.39
+Delhi (NCT),West Delhi,Trans-Gangetic Plains Region,0,0,0,2.1,85.0,1.39
+Goa,North Goa,West Coast Plains and Ghats Region,0,0,0,0.8,10.0,1.1
+Goa,South Goa,West Coast Plains and Ghats Region,0,0,0,0.8,10.0,1.1
+Gujarat,Ahmedabad,Gujarat Plains and Hills Region,0,1,0,11.9,44.7,1.88
+Gujarat,Amreli,Gujarat Plains and Hills Region,1,0,0,11.9,44.7,1.88
+Gujarat,Anand,Gujarat Plains and Hills Region,0,1,0,11.9,44.7,1.88
+Gujarat,Aravalli,Gujarat Plains and Hills Region,1,0,0,11.9,44.7,1.88
+Gujarat,Banaskantha (Palanpur),Gujarat Plains and Hills Region,1,1,0,11.9,44.7,1.88
+Gujarat,Bharuch,Gujarat Plains and Hills Region,1,1,0,11.9,44.7,1.88
+Gujarat,Bhavnagar,Gujarat Plains and Hills Region,1,0,0,11.9,44.7,1.88
+Gujarat,Botad,Gujarat Plains and Hills Region,1,0,0,11.9,44.7,1.88
+Gujarat,Chhota Udepur,Gujarat Plains and Hills Region,0,0,0,11.9,44.7,1.88
+Gujarat,Dahod,Gujarat Plains and Hills Region,1,0,1,11.9,44.7,1.88
+Gujarat,Dangs (Ahwa),Gujarat Plains and Hills Region,0,0,0,11.9,44.7,1.88
+Gujarat,Devbhoomi Dwarka,Gujarat Plains and Hills Region,1,0,0,11.9,44.7,1.88
+Gujarat,Gandhinagar,Gujarat Plains and Hills Region,0,0,0,11.9,44.7,1.88
+Gujarat,Gir Somnath,Gujarat Plains and Hills Region,1,0,0,11.9,44.7,1.88
+Gujarat,Jamnagar,Gujarat Plains and Hills Region,1,0,0,11.9,44.7,1.88
+Gujarat,Junagadh,Gujarat Plains and Hills Region,1,0,0,11.9,44.7,1.88
+Gujarat,Kachchh,Gujarat Plains and Hills Region,1,0,0,11.9,44.7,1.88
+Gujarat,Kheda (Nadiad),Gujarat Plains and Hills Region,0,1,0,11.9,44.7,1.88
+Gujarat,Mahisagar,Gujarat Plains and Hills Region,0,0,0,11.9,44.7,1.88
+Gujarat,Mehsana,Gujarat Plains and Hills Region,1,0,0,11.9,44.7,1.88
+Gujarat,Morbi,Gujarat Plains and Hills Region,1,0,1,11.9,44.7,1.88
+Gujarat,Narmada (Rajpipla),Gujarat Plains and Hills Region,0,0,1,11.9,44.7,1.88
+Gujarat,Navsari,Gujarat Plains and Hills Region,0,1,0,11.9,44.7,1.88
+Gujarat,Panchmahal (Godhra),Gujarat Plains and Hills Region,1,0,0,11.9,44.7,1.88
+Gujarat,Patan,Gujarat Plains and Hills Region,1,1,0,11.9,44.7,1.88
+Gujarat,Porbandar,Gujarat Plains and Hills Region,0,0,0,11.9,44.7,1.88
+Gujarat,Rajkot,Gujarat Plains and Hills Region,1,0,0,11.9,44.7,1.88
+Gujarat,Sabarkantha (Himmatnagar),Gujarat Plains and Hills Region,1,0,0,11.9,44.7,1.88
+Gujarat,Surat,Gujarat Plains and Hills Region,0,1,0,11.9,44.7,1.88
+Gujarat,Surendranagar,Gujarat Plains and Hills Region,1,0,0,11.9,44.7,1.88
+Gujarat,Tapi (Vyara),Gujarat Plains and Hills Region,0,1,0,11.9,44.7,1.88
+Gujarat,Vadodara,Gujarat Plains and Hills Region,0,0,0,11.9,44.7,1.88
+Gujarat,Valsad,Gujarat Plains and Hills Region,0,1,0,11.9,44.7,1.88
+Haryana,Ambala,Trans-Gangetic Plains Region,0,0,0,6.8,87.6,2.22
+Haryana,Bhiwani,Trans-Gangetic Plains Region,1,0,0,6.8,87.6,2.22
+Haryana,Charkhi Dadri,Trans-Gangetic Plains Region,1,0,0,6.8,87.6,2.22
+Haryana,Faridabad,Trans-Gangetic Plains Region,0,0,0,6.8,87.6,2.22
+Haryana,Fatehabad,Trans-Gangetic Plains Region,1,0,0,6.8,87.6,2.22
+Haryana,Gurugram (Gurgaon),Trans-Gangetic Plains Region,0,0,0,6.8,87.6,2.22
+Haryana,Hisar,Trans-Gangetic Plains Region,1,0,0,6.8,87.6,2.22
+Haryana,Jhajjar,Trans-Gangetic Plains Region,0,0,0,6.8,87.6,2.22
+Haryana,Jind,Trans-Gangetic Plains Region,0,0,0,6.8,87.6,2.22
+Haryana,Kaithal,Trans-Gangetic Plains Region,0,0,0,6.8,87.6,2.22
+Haryana,Karnal,Trans-Gangetic Plains Region,0,0,0,6.8,87.6,2.22
+Haryana,Kurukshetra,Trans-Gangetic Plains Region,0,0,0,6.8,87.6,2.22
+Haryana,Mahendragarh,Trans-Gangetic Plains Region,1,0,0,6.8,87.6,2.22
+Haryana,Nuh,Trans-Gangetic Plains Region,0,0,1,6.8,87.6,2.22
+Haryana,Palwal,Trans-Gangetic Plains Region,0,0,0,6.8,87.6,2.22
+Haryana,Panchkula,Trans-Gangetic Plains Region,0,0,0,6.8,87.6,2.22
+Haryana,Panipat,Trans-Gangetic Plains Region,0,0,0,6.8,87.6,2.22
+Haryana,Rewari,Trans-Gangetic Plains Region,1,0,0,6.8,87.6,2.22
+Haryana,Rohtak,Trans-Gangetic Plains Region,0,0,0,6.8,87.6,2.22
+Haryana,Sirsa,Trans-Gangetic Plains Region,1,0,0,6.8,87.6,2.22
+Haryana,Sonipat,Trans-Gangetic Plains Region,0,0,0,6.8,87.6,2.22
+Haryana,Yamunanagar,Trans-Gangetic Plains Region,0,0,0,6.8,87.6,2.22
+Himachal Pradesh,Bilaspur,Western Himalayan Region,0,0,0,3.8,11.0,0.95
+Himachal Pradesh,Chamba,Western Himalayan Region,1,0,1,3.8,11.0,0.95
+Himachal Pradesh,Hamirpur,Western Himalayan Region,0,0,0,3.8,11.0,0.95
+Himachal Pradesh,Kangra,Western Himalayan Region,0,0,0,3.8,11.0,0.95
+Himachal Pradesh,Kinnaur,Western Himalayan Region,1,0,0,3.8,11.0,0.95
+Himachal Pradesh,Kullu,Western Himalayan Region,0,0,0,3.8,11.0,0.95
+Himachal Pradesh,Lahaul & Spiti,Western Himalayan Region,1,0,0,3.8,11.0,0.95
+Himachal Pradesh,Mandi,Western Himalayan Region,0,0,0,3.8,11.0,0.95
+Himachal Pradesh,Shimla,Western Himalayan Region,0,0,0,3.8,11.0,0.95
+Himachal Pradesh,Sirmaur (Sirmour),Western Himalayan Region,0,0,0,3.8,11.0,0.95
+Himachal Pradesh,Solan,Western Himalayan Region,0,0,0,3.8,11.0,0.95
+Himachal Pradesh,Una,Western Himalayan Region,0,0,0,3.8,11.0,0.95
+Jammu and Kashmir (UT),Anantnag,Western Himalayan Region,0,1,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Bandipore,Western Himalayan Region,0,0,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Baramulla,Western Himalayan Region,0,1,1,6.1,41.1,0.59
+Jammu and Kashmir (UT),Budgam,Western Himalayan Region,0,1,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Doda,Western Himalayan Region,1,0,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Ganderbal,Western Himalayan Region,0,0,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Jammu,Western Himalayan Region,0,0,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Kathua,Western Himalayan Region,0,0,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Kishtwar,Western Himalayan Region,1,0,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Kulgam,Western Himalayan Region,0,1,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Kupwara,Western Himalayan Region,0,0,1,6.1,41.1,0.59
+Jammu and Kashmir (UT),Poonch,Western Himalayan Region,0,0,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Pulwama,Western Himalayan Region,0,1,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Rajouri,Western Himalayan Region,0,0,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Ramban,Western Himalayan Region,1,0,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Reasi,Western Himalayan Region,0,0,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Samba,Western Himalayan Region,0,0,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Shopian,Western Himalayan Region,0,0,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Srinagar,Western Himalayan Region,0,1,0,6.1,41.1,0.59
+Jammu and Kashmir (UT),Udhampur,Western Himalayan Region,0,0,0,6.1,41.1,0.59
+Jharkhand,Bokaro,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Jharkhand,Chatra,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Jharkhand,Deoghar,Eastern Plateau and Hills Region,1,0,0,32.23,5.4,1.1
+Jharkhand,Dhanbad,Eastern Plateau and Hills Region,1,0,0,32.23,5.4,1.1
+Jharkhand,Dumka,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Jharkhand,East Singhbhum,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Jharkhand,Garhwa,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Jharkhand,Giridih,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Jharkhand,Godda,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Jharkhand,Gumla,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Jharkhand,Hazaribag,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Jharkhand,Jamtara,Eastern Plateau and Hills Region,1,0,0,32.23,5.4,1.1
+Jharkhand,Khunti,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Jharkhand,Koderma,Eastern Plateau and Hills Region,1,0,0,32.23,5.4,1.1
+Jharkhand,Latehar,Eastern Plateau and Hills Region,0,0,1,32.23,5.4,1.1
+Jharkhand,Lohardaga,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Jharkhand,Pakur,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Jharkhand,Palamu,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Jharkhand,Ramgarh,Eastern Plateau and Hills Region,0,0,1,32.23,5.4,1.1
+Jharkhand,Ranchi,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Jharkhand,Sahibganj,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Jharkhand,Seraikela-Kharsawan,Eastern Plateau and Hills Region,1,0,0,32.23,5.4,1.1
+Jharkhand,Simdega,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Jharkhand,West Singhbhum,Eastern Plateau and Hills Region,1,0,1,32.23,5.4,1.1
+Karnataka,Bagalkot,Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Ballari (Bellary),Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Belagavi (Belgaum),Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Bengaluru (Bangalore) Rural,Southern Plateau and Hills Region,0,0,0,10.1,28.5,1.36
+Karnataka,Bengaluru (Bangalore) Urban,Southern Plateau and Hills Region,0,0,0,10.1,28.5,1.36
+Karnataka,Bidar,Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Chamarajanagar,Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Chikballapur,Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Chikkamagaluru (Chikmagalur),Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Chitradurga,Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Dakshina Kannada,West Coast Plains and Ghats Region,0,0,0,10.1,28.5,1.36
+Karnataka,Davangere,Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Dharwad,Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Gadag,Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Hassan,Southern Plateau and Hills Region,0,0,0,10.1,28.5,1.36
+Karnataka,Haveri,Southern Plateau and Hills Region,0,0,0,10.1,28.5,1.36
+Karnataka,Kalaburagi (Gulbarga),Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Kodagu,Southern Plateau and Hills Region,0,0,0,10.1,28.5,1.36
+Karnataka,Kolar,Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Koppal,Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Mandya,Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Mysuru (Mysore),Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Raichur,Southern Plateau and Hills Region,1,0,1,10.1,28.5,1.36
+Karnataka,Ramanagara,Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Shivamogga (Shimoga),Southern Plateau and Hills Region,0,0,0,10.1,28.5,1.36
+Karnataka,Tumakuru (Tumkur),Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Udupi,West Coast Plains and Ghats Region,0,0,0,10.1,28.5,1.36
+Karnataka,Uttara Kannada (Karwar),West Coast Plains and Ghats Region,0,0,0,10.1,28.5,1.36
+Karnataka,Vijayapura (Bijapur),Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Karnataka,Yadgir,Southern Plateau and Hills Region,1,0,1,10.1,28.5,1.36
+Karnataka,Vijayanagara,Southern Plateau and Hills Region,1,0,0,10.1,28.5,1.36
+Kerala,Alappuzha,West Coast Plains and Ghats Region,0,1,0,0.7,26.0,0.18
+Kerala,Ernakulam,West Coast Plains and Ghats Region,0,1,0,0.7,26.0,0.18
+Kerala,Idukki,West Coast Plains and Ghats Region,0,1,0,0.7,26.0,0.18
+Kerala,Kannur,West Coast Plains and Ghats Region,0,1,0,0.7,26.0,0.18
+Kerala,Kasaragod,West Coast Plains and Ghats Region,0,1,0,0.7,26.0,0.18
+Kerala,Kollam,West Coast Plains and Ghats Region,0,1,0,0.7,26.0,0.18
+Kerala,Kottayam,West Coast Plains and Ghats Region,0,1,0,0.7,26.0,0.18
+Kerala,Kozhikode,West Coast Plains and Ghats Region,0,1,0,0.7,26.0,0.18
+Kerala,Malappuram,West Coast Plains and Ghats Region,0,1,0,0.7,26.0,0.18
+Kerala,Palakkad,West Coast Plains and Ghats Region,0,1,0,0.7,26.0,0.18
+Kerala,Pathanamthitta,West Coast Plains and Ghats Region,0,1,0,0.7,26.0,0.18
+Kerala,Thiruvananthapuram,West Coast Plains and Ghats Region,0,1,0,0.7,26.0,0.18
+Kerala,Thrissur,West Coast Plains and Ghats Region,0,1,0,0.7,26.0,0.18
+Kerala,Wayanad,West Coast Plains and Ghats Region,0,1,1,0.7,26.0,0.18
+Ladakh (UT),Kargil,Western Himalayan Region,0,0,0,4.5,100.0,0.59
+Ladakh (UT),Leh,Western Himalayan Region,0,0,0,4.5,100.0,0.59
+Lakshadweep (UT),Lakshadweep,Islands Region,0,0,0,0.5,0.0,0.27
+Madhya Pradesh,Agar Malwa,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Alirajpur,Western Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Anuppur,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Ashoknagar,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Balaghat,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Barwani,Western Plateau and Hills Region,1,0,1,25.1,44.5,1.57
+Madhya Pradesh,Betul,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Bhind,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Bhopal,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Burhanpur,Western Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Chhatarpur,Central Plateau and Hills Region,1,0,1,25.1,44.5,1.57
+Madhya Pradesh,Chhindwara,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Damoh,Central Plateau and Hills Region,1,0,1,25.1,44.5,1.57
+Madhya Pradesh,Datia,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Dewas,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Dhar,Western Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Dindori,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Guna,Central Plateau and Hills Region,0,0,1,25.1,44.5,1.57
+Madhya Pradesh,Gwalior,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Harda,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Hoshangabad,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Indore,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Jabalpur,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Jhabua,Western Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Katni,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Khandwa,Western Plateau and Hills Region,1,0,1,25.1,44.5,1.57
+Madhya Pradesh,Khargone,Western Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Mandla,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Mandsaur,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Morena,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Narsinghpur,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Neemuch,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Niwari,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Panna,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Raisen,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Rajgarh,Central Plateau and Hills Region,1,0,1,25.1,44.5,1.57
+Madhya Pradesh,Ratlam,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Rewa,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Sagar,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Satna,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Sehore,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Seoni,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Shahdol,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Shajapur,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Sheopur,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Shivpuri,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Sidhi,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Singrauli,Central Plateau and Hills Region,1,0,1,25.1,44.5,1.57
+Madhya Pradesh,Tikamgarh,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Ujjain,Central Plateau and Hills Region,1,0,0,25.1,44.5,1.57
+Madhya Pradesh,Umaria,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Vidisha,Central Plateau and Hills Region,0,0,1,25.1,44.5,1.57
+Madhya Pradesh,Mauganj,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Maihar,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Madhya Pradesh,Pandhurna,Central Plateau and Hills Region,0,0,0,25.1,44.5,1.57
+Maharashtra,Ahmednagar,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Maharashtra,Akola,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Maharashtra,Amravati,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Maharashtra,Aurangabad (Chhatrapati Sambhajinagar),Western Plateau and Hills Region,1,0,1,11.2,16.8,1.34
+Maharashtra,Beed,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Maharashtra,Bhandara,Western Plateau and Hills Region,0,0,0,11.2,16.8,1.34
+Maharashtra,Buldhana,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Maharashtra,Chandrapur,Western Plateau and Hills Region,0,0,0,11.2,16.8,1.34
+Maharashtra,Dhule,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Maharashtra,Gadchirolli,Western Plateau and Hills Region,0,0,0,11.2,16.8,1.34
+Maharashtra,Gondia,Western Plateau and Hills Region,0,0,0,11.2,16.8,1.34
+Maharashtra,Hingoli,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Maharashtra,Jalgaon,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Maharashtra,Jalna,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Maharashtra,Kolhapur,West Coast Plains and Ghats Region,0,0,0,11.2,16.8,1.34
+Maharashtra,Latur,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Maharashtra,Mumbai City,West Coast Plains and Ghats Region,0,0,0,11.2,16.8,1.34
+Maharashtra,Mumbai Suburban,West Coast Plains and Ghats Region,0,0,0,11.2,16.8,1.34
+Maharashtra,Nagpur,Western Plateau and Hills Region,0,0,0,11.2,16.8,1.34
+Maharashtra,Nanded,Western Plateau and Hills Region,0,0,1,11.2,16.8,1.34
+Maharashtra,Nandurbar,Western Plateau and Hills Region,0,0,1,11.2,16.8,1.34
+Maharashtra,Nashik,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Maharashtra,Osmanabad (Dharashiv),Western Plateau and Hills Region,1,0,1,11.2,16.8,1.34
+Maharashtra,Palghar,West Coast Plains and Ghats Region,0,0,0,11.2,16.8,1.34
+Maharashtra,Parbhani,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Maharashtra,Pune,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Maharashtra,Raigad,West Coast Plains and Ghats Region,0,0,0,11.2,16.8,1.34
+Maharashtra,Ratnagiri,West Coast Plains and Ghats Region,0,0,0,11.2,16.8,1.34
+Maharashtra,Sangli,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Maharashtra,Satara,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Maharashtra,Sindhudurg,West Coast Plains and Ghats Region,0,0,0,11.2,16.8,1.34
+Maharashtra,Solapur,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Maharashtra,Thane,West Coast Plains and Ghats Region,0,0,0,11.2,16.8,1.34
+Maharashtra,Wardha,Western Plateau and Hills Region,0,0,0,11.2,16.8,1.34
+Maharashtra,Washim,Western Plateau and Hills Region,1,0,1,11.2,16.8,1.34
+Maharashtra,Yavatmal,Western Plateau and Hills Region,1,0,0,11.2,16.8,1.34
+Manipur,Bishnupur,Eastern Himalayan Region,0,0,0,10.95,25.0,1.14
+Manipur,Chandel,Eastern Himalayan Region,0,0,1,10.95,25.0,1.14
+Manipur,Churachandpur,Eastern Himalayan Region,0,0,0,10.95,25.0,1.14
+Manipur,Imphal East,Eastern Himalayan Region,0,0,0,10.95,25.0,1.14
+Manipur,Imphal West,Eastern Himalayan Region,0,0,0,10.95,25.0,1.14
+Manipur,Jiribam,Eastern Himalayan Region,0,0,0,10.95,25.0,1.14
+Manipur,Kakching,Eastern Himalayan Region,0,0,0,10.95,25.0,1.14
+Manipur,Kamjong,Eastern Himalayan Region,0,0,0,10.95,25.0,1.14
+Manipur,Kangpokpi,Eastern Himalayan Region,0,0,0,10.95,25.0,1.14
+Manipur,Noney,Eastern Himalayan Region,0,0,0,10.95,25.0,1.14
+Manipur,Pherzawl,Eastern Himalayan Region,0,0,0,10.95,25.0,1.14
+Manipur,Senapati,Eastern Himalayan Region,0,0,0,10.95,25.0,1.14
+Manipur,Tamenglong,Eastern Himalayan Region,0,0,0,10.95,25.0,1.14
+Manipur,Tengnoupal,Eastern Himalayan Region,0,0,0,10.95,25.0,1.14
+Manipur,Thoubal,Eastern Himalayan Region,0,0,0,10.95,25.0,1.14
+Manipur,Ukhrul,Eastern Himalayan Region,0,0,0,10.95,25.0,1.14
+Meghalaya,East Garo Hills,Eastern Himalayan Region,0,0,0,32.5,20.0,1.29
+Meghalaya,East Jaintia Hills,Eastern Himalayan Region,0,0,0,32.5,20.0,1.29
+Meghalaya,East Khasi Hills,Eastern Himalayan Region,0,0,0,32.5,20.0,1.29
+Meghalaya,Eastern West Khasi Hills,Eastern Himalayan Region,0,0,0,32.5,20.0,1.29
+Meghalaya,North Garo Hills,Eastern Himalayan Region,0,0,0,32.5,20.0,1.29
+Meghalaya,Ri Bhoi,Eastern Himalayan Region,0,0,1,32.5,20.0,1.29
+Meghalaya,South Garo Hills,Eastern Himalayan Region,0,0,0,32.5,20.0,1.29
+Meghalaya,South West Garo Hills,Eastern Himalayan Region,0,0,0,32.5,20.0,1.29
+Meghalaya,South West Khasi Hills,Eastern Himalayan Region,0,0,0,32.5,20.0,1.29
+Meghalaya,West Garo Hills,Eastern Himalayan Region,0,0,0,32.5,20.0,1.29
+Meghalaya,West Jaintia Hills,Eastern Himalayan Region,0,0,0,32.5,20.0,1.29
+Meghalaya,West Khasi Hills,Eastern Himalayan Region,0,0,0,32.5,20.0,1.29
+Mizoram,Aizawl,Eastern Himalayan Region,0,0,0,11.0,10.0,1.25
+Mizoram,Champhai,Eastern Himalayan Region,0,0,0,11.0,10.0,1.25
+Mizoram,Hnahthial,Eastern Himalayan Region,0,0,0,11.0,10.0,1.25
+Mizoram,Khawzawl,Eastern Himalayan Region,0,0,0,11.0,10.0,1.25
+Mizoram,Kolasib,Eastern Himalayan Region,0,0,0,11.0,10.0,1.25
+Mizoram,Lawngtlai,Eastern Himalayan Region,0,0,0,11.0,10.0,1.25
+Mizoram,Lunglei,Eastern Himalayan Region,0,0,0,11.0,10.0,1.25
+Mizoram,Mamit,Eastern Himalayan Region,0,0,1,11.0,10.0,1.25
+Mizoram,Saiha,Eastern Himalayan Region,0,0,0,11.0,10.0,1.25
+Mizoram,Saitual,Eastern Himalayan Region,0,0,0,11.0,10.0,1.25
+Mizoram,Serchhip,Eastern Himalayan Region,0,0,0,11.0,10.0,1.25
+Nagaland,Chumoukedima,Eastern Himalayan Region,0,0,0,17.5,6.4,4.87
+Nagaland,Dimapur,Eastern Himalayan Region,0,0,0,17.5,6.4,4.87
+Nagaland,Kiphire,Eastern Himalayan Region,0,0,1,17.5,6.4,4.87
+Nagaland,Kohima,Eastern Himalayan Region,0,0,0,17.5,6.4,4.87
+Nagaland,Longleng,Eastern Himalayan Region,0,0,0,17.5,6.4,4.87
+Nagaland,Mokokchung,Eastern Himalayan Region,0,0,0,17.5,6.4,4.87
+Nagaland,Mon,Eastern Himalayan Region,0,0,0,17.5,6.4,4.87
+Nagaland,Niuland,Eastern Himalayan Region,0,0,0,17.5,6.4,4.87
+Nagaland,Noklak,Eastern Himalayan Region,0,0,0,17.5,6.4,4.87
+Nagaland,Peren,Eastern Himalayan Region,0,0,0,17.5,6.4,4.87
+Nagaland,Phek,Eastern Himalayan Region,0,0,0,17.5,6.4,4.87
+Nagaland,Shamator,Eastern Himalayan Region,0,0,0,17.5,6.4,4.87
+Nagaland,Tseminyu,Eastern Himalayan Region,0,0,0,17.5,6.4,4.87
+Nagaland,Tuensang,Eastern Himalayan Region,0,0,0,17.5,6.4,4.87
+Nagaland,Wokha,Eastern Himalayan Region,0,0,0,17.5,6.4,4.87
+Nagaland,Zunheboto,Eastern Himalayan Region,0,0,0,17.5,6.4,4.87
+Odisha,Angul,Eastern Plateau and Hills Region,0,0,0,17.72,33.6,0.95
+Odisha,Balangir,Eastern Plateau and Hills Region,1,0,1,17.72,33.6,0.95
+Odisha,Balasore,East Coast Plains and Hills Region,0,1,0,17.72,33.6,0.95
+Odisha,Bargarh,Eastern Plateau and Hills Region,1,0,0,17.72,33.6,0.95
+Odisha,Bhadrak,East Coast Plains and Hills Region,0,1,0,17.72,33.6,0.95
+Odisha,Boudh,Eastern Plateau and Hills Region,1,0,0,17.72,33.6,0.95
+Odisha,Cuttack,East Coast Plains and Hills Region,0,1,0,17.72,33.6,0.95
+Odisha,Deogarh,Eastern Plateau and Hills Region,0,0,0,17.72,33.6,0.95
+Odisha,Dhenkanal,Eastern Plateau and Hills Region,0,0,1,17.72,33.6,0.95
+Odisha,Gajapati,Eastern Plateau and Hills Region,0,0,1,17.72,33.6,0.95
+Odisha,Ganjam,East Coast Plains and Hills Region,0,0,0,17.72,33.6,0.95
+Odisha,Jagatsinghapur,East Coast Plains and Hills Region,0,1,0,17.72,33.6,0.95
+Odisha,Jajpur,East Coast Plains and Hills Region,0,1,0,17.72,33.6,0.95
+Odisha,Jharsuguda,Eastern Plateau and Hills Region,0,0,0,17.72,33.6,0.95
+Odisha,Kalahandi,Eastern Plateau and Hills Region,1,0,1,17.72,33.6,0.95
+Odisha,Kandhamal,Eastern Plateau and Hills Region,0,0,1,17.72,33.6,0.95
+Odisha,Kendrapara,East Coast Plains and Hills Region,0,1,0,17.72,33.6,0.95
+Odisha,Kendujhar (Keonjhar),Eastern Plateau and Hills Region,0,0,1,17.72,33.6,0.95
+Odisha,Khordha,East Coast Plains and Hills Region,0,0,0,17.72,33.6,0.95
+Odisha,Koraput,Eastern Plateau and Hills Region,0,0,1,17.72,33.6,0.95
+Odisha,Malkangiri,Eastern Plateau and Hills Region,0,0,1,17.72,33.6,0.95
+Odisha,Mayurbhanj,Eastern Plateau and Hills Region,0,0,0,17.72,33.6,0.95
+Odisha,Nabarangpur,Eastern Plateau and Hills Region,0,0,1,17.72,33.6,0.95
+Odisha,Nayagarh,East Coast Plains and Hills Region,0,0,0,17.72,33.6,0.95
+Odisha,Nuapada,Eastern Plateau and Hills Region,1,0,1,17.72,33.6,0.95
+Odisha,Puri,East Coast Plains and Hills Region,0,1,0,17.72,33.6,0.95
+Odisha,Rayagada,Eastern Plateau and Hills Region,1,0,1,17.72,33.6,0.95
+Odisha,Sambalpur,Eastern Plateau and Hills Region,0,0,0,17.72,33.6,0.95
+Odisha,Sonepur,Eastern Plateau and Hills Region,1,0,0,17.72,33.6,0.95
+Odisha,Sundargarh,Eastern Plateau and Hills Region,0,0,0,17.72,33.6,0.95
+Puducherry (UT),Karaikal,East Coast Plains and Hills Region,0,0,0,0.8,90.0,0.62
+Puducherry (UT),Mahe,East Coast Plains and Hills Region,0,0,0,0.8,90.0,0.62
+Puducherry (UT),Puducherry,East Coast Plains and Hills Region,0,0,0,0.8,90.0,0.62
+Puducherry (UT),Yanam,East Coast Plains and Hills Region,0,0,0,0.8,90.0,0.62
+Punjab,Amritsar,Trans-Gangetic Plains Region,0,1,0,4.7,98.1,3.62
+Punjab,Barnala,Trans-Gangetic Plains Region,0,0,0,4.7,98.1,3.62
+Punjab,Bathinda,Trans-Gangetic Plains Region,0,0,0,4.7,98.1,3.62
+Punjab,Faridkot,Trans-Gangetic Plains Region,0,0,0,4.7,98.1,3.62
+Punjab,Fatehgarh Sahib,Trans-Gangetic Plains Region,0,0,0,4.7,98.1,3.62
+Punjab,Fazilka,Trans-Gangetic Plains Region,0,0,0,4.7,98.1,3.62
+Punjab,Ferozepur,Trans-Gangetic Plains Region,0,1,1,4.7,98.1,3.62
+Punjab,Gurdaspur,Trans-Gangetic Plains Region,0,1,0,4.7,98.1,3.62
+Punjab,Hoshiarpur,Trans-Gangetic Plains Region,0,0,0,4.7,98.1,3.62
+Punjab,Jalandhar,Trans-Gangetic Plains Region,0,1,0,4.7,98.1,3.62
+Punjab,Kapurthala,Trans-Gangetic Plains Region,0,1,0,4.7,98.1,3.62
+Punjab,Ludhiana,Trans-Gangetic Plains Region,0,0,0,4.7,98.1,3.62
+Punjab,Malerkotla,Trans-Gangetic Plains Region,0,0,0,4.7,98.1,3.62
+Punjab,Mansa,Trans-Gangetic Plains Region,0,0,0,4.7,98.1,3.62
+Punjab,Moga,Trans-Gangetic Plains Region,0,0,1,4.7,98.1,3.62
+Punjab,Muktsar,Trans-Gangetic Plains Region,0,0,0,4.7,98.1,3.62
+Punjab,Pathankot,Trans-Gangetic Plains Region,0,1,0,4.7,98.1,3.62
+Punjab,Patiala,Trans-Gangetic Plains Region,0,0,0,4.7,98.1,3.62
+Punjab,Rupnagar,Trans-Gangetic Plains Region,0,1,0,4.7,98.1,3.62
+Punjab,Sahibzada Ajit Singh Nagar (Mohali),Trans-Gangetic Plains Region,0,0,0,4.7,98.1,3.62
+Punjab,Shahid Bhagat Singh Nagar (Nawanshahr),Trans-Gangetic Plains Region,0,0,0,4.7,98.1,3.62
+Punjab,Sri Muktsar Sahib,Trans-Gangetic Plains Region,0,0,0,4.7,98.1,3.62
+Punjab,Tarn Taran,Trans-Gangetic Plains Region,0,1,0,4.7,98.1,3.62
+Rajasthan,Ajmer,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Alwar,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Anupgarh,Western Dry Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Balotra,Western Dry Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Banswara,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Baran,Central Plateau and Hills Region,1,0,1,18.6,26.4,2.73
+Rajasthan,Barmer,Western Dry Region,1,0,1,18.6,26.4,2.73
+Rajasthan,Bharatpur,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Bhilwara,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Bikaner,Western Dry Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Bundi,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Chittorgarh,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Churu,Western Dry Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Dausa,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Deeg,Central Plateau and Hills Region,0,0,0,18.6,26.4,2.73
+Rajasthan,Dholpur,Central Plateau and Hills Region,1,0,1,18.6,26.4,2.73
+Rajasthan,Didwana-Kuchaman,Western Dry Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Dudu,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Dungarpur,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Gangapurcity,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Hanumangarh,Western Dry Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Jaipur,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Jaipur Rural,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Jaisalmer,Western Dry Region,1,0,1,18.6,26.4,2.73
+Rajasthan,Jalore,Western Dry Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Jhalawar,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Jhunjhunu,Western Dry Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Jodhpur,Western Dry Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Jodhpur Rural,Western Dry Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Karauli,Central Plateau and Hills Region,1,0,1,18.6,26.4,2.73
+Rajasthan,Kekri,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Khairthal-Tijara,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Kota,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Kotputli-Behror,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Nagaur,Western Dry Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Neem Ka Thana,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Pali,Western Dry Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Phalodi,Western Dry Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Pratapgarh,Central Plateau and Hills Region,0,0,0,18.6,26.4,2.73
+Rajasthan,Rajsamand,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Salumbar,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Sanchore,Western Dry Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Sawai Madhopur,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Shahpura,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Sikar,Western Dry Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Sirohi,Central Plateau and Hills Region,1,0,1,18.6,26.4,2.73
+Rajasthan,Sri Ganganagar,Western Dry Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Tonk,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Rajasthan,Udaipur,Central Plateau and Hills Region,1,0,0,18.6,26.4,2.73
+Sikkim,Gangtok (East Sikkim),Eastern Himalayan Region,0,0,1,3.2,10.0,1.27
+Sikkim,Gyalshing (West Sikkim),Eastern Himalayan Region,0,0,1,3.2,10.0,1.27
+Sikkim,Mangan (North Sikkim),Eastern Himalayan Region,0,0,0,3.2,10.0,1.27
+Sikkim,Namchi (South Sikkim),Eastern Himalayan Region,0,0,0,3.2,10.0,1.27
+Sikkim,Pakyong,Eastern Himalayan Region,0,0,0,3.2,10.0,1.27
+Sikkim,Soreng,Eastern Himalayan Region,0,0,0,3.2,10.0,1.27
+Tamil Nadu,Ariyalur,Southern Plateau and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Chengalpattu,East Coast Plains and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Chennai,East Coast Plains and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Coimbatore,Southern Plateau and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Cuddalore,East Coast Plains and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Dharmapuri,Southern Plateau and Hills Region,1,0,0,2.2,63.1,0.75
+Tamil Nadu,Dindigul,Southern Plateau and Hills Region,1,0,0,2.2,63.1,0.75
+Tamil Nadu,Erode,Southern Plateau and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Kallakurichi,Southern Plateau and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Kanchipuram,East Coast Plains and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Kanyakumari,East Coast Plains and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Karur,Southern Plateau and Hills Region,1,0,0,2.2,63.1,0.75
+Tamil Nadu,Krishnagiri,Southern Plateau and Hills Region,1,0,0,2.2,63.1,0.75
+Tamil Nadu,Madurai,Southern Plateau and Hills Region,1,0,0,2.2,63.1,0.75
+Tamil Nadu,Mayiladuthurai,East Coast Plains and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Nagapattinam,East Coast Plains and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Namakkal,Southern Plateau and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Nilgiris,Southern Plateau and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Perambalur,Southern Plateau and Hills Region,1,0,0,2.2,63.1,0.75
+Tamil Nadu,Pudukkottai,East Coast Plains and Hills Region,1,0,0,2.2,63.1,0.75
+Tamil Nadu,Ramanathapuram,East Coast Plains and Hills Region,1,0,1,2.2,63.1,0.75
+Tamil Nadu,Ranipet,East Coast Plains and Hills Region,1,0,0,2.2,63.1,0.75
+Tamil Nadu,Salem,Southern Plateau and Hills Region,1,0,0,2.2,63.1,0.75
+Tamil Nadu,Sivaganga,Southern Plateau and Hills Region,1,0,0,2.2,63.1,0.75
+Tamil Nadu,Tenkasi,East Coast Plains and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Thanjavur,East Coast Plains and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Theni,Southern Plateau and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Thoothukudi (Tuticorin),East Coast Plains and Hills Region,1,0,0,2.2,63.1,0.75
+Tamil Nadu,Tiruchirappalli,Southern Plateau and Hills Region,1,0,0,2.2,63.1,0.75
+Tamil Nadu,Tirunelveli,East Coast Plains and Hills Region,1,0,0,2.2,63.1,0.75
+Tamil Nadu,Tirupathur,East Coast Plains and Hills Region,1,0,0,2.2,63.1,0.75
+Tamil Nadu,Tiruppur,Southern Plateau and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Tiruvallur,East Coast Plains and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Tiruvannamalai,Southern Plateau and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Tiruvarur,East Coast Plains and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Vellore,Southern Plateau and Hills Region,1,0,0,2.2,63.1,0.75
+Tamil Nadu,Viluppuram,East Coast Plains and Hills Region,0,0,0,2.2,63.1,0.75
+Tamil Nadu,Virudhunagar,Southern Plateau and Hills Region,1,0,1,2.2,63.1,0.75
+Telangana,Adilabad,Southern Plateau and Hills Region,1,0,1,7.5,52.3,1.0
+Telangana,Bhadradri Kothagudem,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Hanumakonda,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Hyderabad,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Jagtial,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Jangaon,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Jayashankar Bhupalpally,Southern Plateau and Hills Region,0,0,1,7.5,52.3,1.0
+Telangana,Jogulamba Gadwal,Southern Plateau and Hills Region,1,0,0,7.5,52.3,1.0
+Telangana,Kamareddy,Southern Plateau and Hills Region,1,0,0,7.5,52.3,1.0
+Telangana,Karimnagar,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Khammam,Southern Plateau and Hills Region,0,0,1,7.5,52.3,1.0
+Telangana,Komaram Bheem Asifabad,Southern Plateau and Hills Region,0,0,1,7.5,52.3,1.0
+Telangana,Mahabubabad,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Mahabubnagar,Southern Plateau and Hills Region,1,0,0,7.5,52.3,1.0
+Telangana,Mancherial,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Medak,Southern Plateau and Hills Region,1,0,0,7.5,52.3,1.0
+Telangana,Medchal-Malkajgiri,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Mulugu,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Nagarkurnool,Southern Plateau and Hills Region,1,0,0,7.5,52.3,1.0
+Telangana,Nalgonda,Southern Plateau and Hills Region,1,0,0,7.5,52.3,1.0
+Telangana,Narayanpet,Southern Plateau and Hills Region,1,0,0,7.5,52.3,1.0
+Telangana,Nirmal,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Nizamabad,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Peddapalli,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Rajanna Sircilla,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Rangareddy,Southern Plateau and Hills Region,1,0,0,7.5,52.3,1.0
+Telangana,Sangareddy,Southern Plateau and Hills Region,1,0,0,7.5,52.3,1.0
+Telangana,Siddipet,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Suryapet,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Vikarabad,Southern Plateau and Hills Region,1,0,0,7.5,52.3,1.0
+Telangana,Wanaparthy,Southern Plateau and Hills Region,1,0,0,7.5,52.3,1.0
+Telangana,Warangal,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Telangana,Yadadri Bhuvanagiri,Southern Plateau and Hills Region,0,0,0,7.5,52.3,1.0
+Tripura,Dhalai,Eastern Himalayan Region,0,0,1,16.3,23.3,0.49
+Tripura,Gomati,Eastern Himalayan Region,0,0,0,16.3,23.3,0.49
+Tripura,Khowai,Eastern Himalayan Region,0,0,0,16.3,23.3,0.49
+Tripura,North Tripura,Eastern Himalayan Region,0,0,0,16.3,23.3,0.49
+Tripura,Sepahijala,Eastern Himalayan Region,0,0,0,16.3,23.3,0.49
+Tripura,South Tripura,Eastern Himalayan Region,0,0,0,16.3,23.3,0.49
+Tripura,Unakoti,Eastern Himalayan Region,0,0,0,16.3,23.3,0.49
+Tripura,West Tripura,Eastern Himalayan Region,0,0,0,16.3,23.3,0.49
+Uttar Pradesh,Agra,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Aligarh,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Ambedkar Nagar,Middle Gangetic Plains Region,0,0,1,26.43,84.8,0.73
+Uttar Pradesh,Amethi (Chatrapati Sahuji Mahraj Nagar),Middle Gangetic Plains Region,0,0,1,26.43,84.8,0.73
+Uttar Pradesh,Amroha (J.P. Nagar),Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Auraiya,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Ayodhya,Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Azamgarh,Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Baghpat,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Bahraich,Middle Gangetic Plains Region,0,1,1,26.43,84.8,0.73
+Uttar Pradesh,Ballia,Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Balrampur,Middle Gangetic Plains Region,0,1,1,26.43,84.8,0.73
+Uttar Pradesh,Banda,Central Plateau and Hills Region,1,0,0,26.43,84.8,0.73
+Uttar Pradesh,Barabanki,Upper Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Bareilly,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Basti,Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Bhadohi,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Bijnor,Upper Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Budaun,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Bulandshahr,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Chandauli,Middle Gangetic Plains Region,0,1,1,26.43,84.8,0.73
+Uttar Pradesh,Chitrakoot,Central Plateau and Hills Region,1,0,1,26.43,84.8,0.73
+Uttar Pradesh,Deoria,Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Etah,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Etawah,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Farrukhabad,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Fatehpur,Upper Gangetic Plains Region,0,0,1,26.43,84.8,0.73
+Uttar Pradesh,Firozabad,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Gautam Buddha Nagar,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Ghaziabad,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Ghazipur,Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Gonda,Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Gorakhpur,Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Hamirpur,Central Plateau and Hills Region,1,0,0,26.43,84.8,0.73
+Uttar Pradesh,Hapur (Panchsheel Nagar),Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Hardoi,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Hathras,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Jalaun,Central Plateau and Hills Region,1,0,0,26.43,84.8,0.73
+Uttar Pradesh,Jaunpur,Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Jhansi,Central Plateau and Hills Region,1,0,0,26.43,84.8,0.73
+Uttar Pradesh,Kannauj,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Kanpur Dehat,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Kanpur Nagar,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Kasganj,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Kaushambi,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Kheri,Upper Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Kushinagar (Padrauna),Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Lalitpur,Central Plateau and Hills Region,1,0,0,26.43,84.8,0.73
+Uttar Pradesh,Lucknow,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Maharajganj,Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Mahoba,Central Plateau and Hills Region,1,0,0,26.43,84.8,0.73
+Uttar Pradesh,Mainpuri,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Mathura,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Mau,Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Meerut,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Mirzapur,Central Plateau and Hills Region,1,0,0,26.43,84.8,0.73
+Uttar Pradesh,Moradabad,Upper Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Muzaffarnagar,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Pilibhit,Upper Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Pratapgarh,Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Prayagraj,Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Raebareli,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Rampur,Upper Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Saharanpur,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Sambhal (Bhim Nagar),Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Sant Kabir Nagar,Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Shahjahanpur,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Shamali (Prabuddh Nagar),Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Shravasti,Middle Gangetic Plains Region,0,1,1,26.43,84.8,0.73
+Uttar Pradesh,Siddharth Nagar,Middle Gangetic Plains Region,0,1,1,26.43,84.8,0.73
+Uttar Pradesh,Sitapur,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Sonbhadra,Central Plateau and Hills Region,1,0,1,26.43,84.8,0.73
+Uttar Pradesh,Sultanpur,Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttar Pradesh,Unnao,Upper Gangetic Plains Region,0,0,0,26.43,84.8,0.73
+Uttar Pradesh,Varanasi,Middle Gangetic Plains Region,0,1,0,26.43,84.8,0.73
+Uttarakhand,Almora,Western Himalayan Region,0,0,0,10.8,42.9,0.85
+Uttarakhand,Bageshwar,Western Himalayan Region,0,0,0,10.8,42.9,0.85
+Uttarakhand,Chamoli,Western Himalayan Region,0,0,0,10.8,42.9,0.85
+Uttarakhand,Champawat,Western Himalayan Region,0,0,0,10.8,42.9,0.85
+Uttarakhand,Dehradun,Western Himalayan Region,0,0,0,10.8,42.9,0.85
+Uttarakhand,Haridwar,Western Himalayan Region,0,0,1,10.8,42.9,0.85
+Uttarakhand,Nainital,Western Himalayan Region,0,0,0,10.8,42.9,0.85
+Uttarakhand,Pauri Garhwal,Western Himalayan Region,0,0,0,10.8,42.9,0.85
+Uttarakhand,Pithoragarh,Western Himalayan Region,0,0,0,10.8,42.9,0.85
+Uttarakhand,Rudraprayag,Western Himalayan Region,0,0,0,10.8,42.9,0.85
+Uttarakhand,Tehri Garhwal,Western Himalayan Region,0,0,0,10.8,42.9,0.85
+Uttarakhand,Udham Singh Nagar,Western Himalayan Region,0,0,1,10.8,42.9,0.85
+Uttarakhand,Uttarkashi,Western Himalayan Region,0,0,0,10.8,42.9,0.85
+West Bengal,Alipurduar,Eastern Himalayan Region,0,1,0,11.9,48.2,0.76
+West Bengal,Bankura,Lower Gangetic Plains Region,0,0,0,11.9,48.2,0.76
+West Bengal,Birbhum,Lower Gangetic Plains Region,0,0,1,11.9,48.2,0.76
+West Bengal,Cooch Behar,Eastern Himalayan Region,0,1,0,11.9,48.2,0.76
+West Bengal,Dakshin Dinajpur (South Dinajpur),Lower Gangetic Plains Region,0,1,1,11.9,48.2,0.76
+West Bengal,Darjeeling,Eastern Himalayan Region,0,0,0,11.9,48.2,0.76
+West Bengal,Hooghly,Lower Gangetic Plains Region,0,1,0,11.9,48.2,0.76
+West Bengal,Howrah,Lower Gangetic Plains Region,0,1,0,11.9,48.2,0.76
+West Bengal,Jalpaiguri,Eastern Himalayan Region,0,1,0,11.9,48.2,0.76
+West Bengal,Jhargram,Lower Gangetic Plains Region,0,0,0,11.9,48.2,0.76
+West Bengal,Kalimpong,Eastern Himalayan Region,0,0,0,11.9,48.2,0.76
+West Bengal,Kolkata,Lower Gangetic Plains Region,0,0,0,11.9,48.2,0.76
+West Bengal,Malda,Lower Gangetic Plains Region,0,1,1,11.9,48.2,0.76
+West Bengal,Murshidabad,Lower Gangetic Plains Region,0,1,1,11.9,48.2,0.76
+West Bengal,Nadia,Lower Gangetic Plains Region,0,1,1,11.9,48.2,0.76
+West Bengal,North 24 Parganas,Lower Gangetic Plains Region,0,1,1,11.9,48.2,0.76
+West Bengal,Paschim Bardhaman (West Bardhaman),Lower Gangetic Plains Region,0,0,0,11.9,48.2,0.76
+West Bengal,Paschim Medinipur (West Medinipur),Lower Gangetic Plains Region,0,1,0,11.9,48.2,0.76
+West Bengal,Purba Bardhaman (East Bardhaman),Lower Gangetic Plains Region,0,1,0,11.9,48.2,0.76
+West Bengal,Purba Medinipur (East Medinipur),Lower Gangetic Plains Region,0,1,0,11.9,48.2,0.76
+West Bengal,Purulia,Lower Gangetic Plains Region,0,0,0,11.9,48.2,0.76
+West Bengal,South 24 Parganas,Lower Gangetic Plains Region,0,1,0,11.9,48.2,0.76
+West Bengal,Uttar Dinajpur (North Dinajpur),Lower Gangetic Plains Region,0,1,0,11.9,48.2,0.76
+Andaman and Nicobar Islands (UT),Nicobar,Islands Region,0,0,0,2.8,1.5,1.78
+Andaman and Nicobar Islands (UT),North and Middle Andaman,Islands Region,0,0,0,2.8,1.5,1.78
+Andaman and Nicobar Islands (UT),South Andaman,Islands Region,0,0,0,2.8,1.5,1.78
